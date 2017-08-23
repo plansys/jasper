@@ -13,8 +13,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Plansys\\Db\\": "src/",
-            "db\\Pages\\": "pages/"
+            "Plansys\\Jasper\\": "src/",
+            "jasper\\Pages\\": "pages/"
         }
     }
 }
