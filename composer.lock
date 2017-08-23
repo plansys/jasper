@@ -1,0 +1,178 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1e34a7e56aaba8aaaed7531a3aee6f67",
+    "packages": [
+        {
+            "name": "cossou/jasperphp",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cossou/JasperPHP.git",
+                "reference": "2ed2c0c691fe3d685055a9050db8a81c134f9e36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cossou/JasperPHP/zipball/2ed2c0c691fe3d685055a9050db8a81c134f9e36",
+                "reference": "2ed2c0c691fe3d685055a9050db8a81c134f9e36",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JasperPHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hélder Duarte",
+                    "email": "cossou@gmail.com"
+                }
+            ],
+            "description": "Create Reports in PHP with JasperReports",
+            "homepage": "https://github.com/cossou/JasperPHP",
+            "keywords": [
+                "jasper",
+                "jasperreports",
+                "java",
+                "pdf",
+                "reports"
+            ],
+            "time": "2017-06-29T21:30:36+00:00"
+        },
+        {
+            "name": "fluentdom/fluentdom",
+            "version": "6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FluentDOM/FluentDOM.git",
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=5.6.0"
+            },
+            "suggest": {
+                "fluentdom/css-selector": "Allows to use css selectors."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/FluentDOM.php"
+                ],
+                "psr-4": {
+                    "FluentDOM\\": "src/FluentDOM"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FluentDOM Contributors",
+                    "homepage": "https://github.com/FluentDOM/FluentDOM/contributors"
+                }
+            ],
+            "description": "A fluent api for the php dom extension.",
+            "homepage": "http://fluentdom.org",
+            "keywords": [
+                "Xpath",
+                "dom",
+                "jquery",
+                "xml"
+            ],
+            "time": "2017-07-29T17:49:41+00:00"
+        },
+        {
+            "name": "plansys/ui",
+            "version": "0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plansys/ui.git",
+                "reference": "650d99ae0e36b519e5707d6f4e926bf723249892"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plansys/ui/zipball/650d99ae0e36b519e5707d6f4e926bf723249892",
+                "reference": "650d99ae0e36b519e5707d6f4e926bf723249892",
+                "shasum": ""
+            },
+            "require": {
+                "plansys/yard": "^0.0.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Plansys\\Ui\\": "src/",
+                    "ui\\Pages\\": "pages/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rizky",
+                    "email": "rizky@andromedia.co.id"
+                }
+            ],
+            "time": "2017-08-07T04:49:01+00:00"
+        },
+        {
+            "name": "plansys/yard",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plansys/yard.git",
+                "reference": "0d72cb03a6b8a5edf363041c684c9df21ceb17f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plansys/yard/zipball/0d72cb03a6b8a5edf363041c684c9df21ceb17f6",
+                "reference": "0d72cb03a6b8a5edf363041c684c9df21ceb17f6",
+                "shasum": ""
+            },
+            "require": {
+                "fluentdom/fluentdom": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rizky",
+                    "email": "rizky@andromedia.co.id"
+                }
+            ],
+            "description": "Write ReactJS Component in PHP!",
+            "time": "2017-07-19T11:34:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

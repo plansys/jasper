@@ -1,0 +1,20 @@
+{
+    "name": "plansys/jasper",
+    "type": "library",
+    "require": {
+        "plansys/ui": "^0.0.0",
+        "cossou/jasperphp": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Rizky",
+            "email": "rizky05@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Plansys\\Db\\": "src/",
+            "db\\Pages\\": "pages/"
+        }
+    }
+}
