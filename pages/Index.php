@@ -2,8 +2,12 @@
 
 namespace jasper\Pages;
 
-class Index extends \Yard\Page
+class Download extends \Yard\Page
 {
+    public function query($app, $params) {
+        echo "fuuuu";
+    }
+
     public function render()
     {
         return '<div>TEST</div>';
