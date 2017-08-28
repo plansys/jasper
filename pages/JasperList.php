@@ -10,7 +10,7 @@ class JasperList extends \Yard\Page
     public function __construct($alias, $isRoot, $showDeps, $base)
     {
         parent::__construct($alias, $isRoot, $showDeps, $base);
-        $this->jasper = new Jasper($this->base->dir['root']);
+        $this->jasper = new Jasper($this->app()->jasper['dir']);
     }
 
     public function render() {
